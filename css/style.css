@@ -1,43 +1,64 @@
-main{
-    background-color: cyan;
-}
-
-
-h1{
-    text-align:center;
-    font-size: 100px;
-}
-.image{
-    margin-left: 300px;
-}
-p{
-    color:green;
-    font-size: 50px;
+.title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
 }
-.service{
-    margin-left: 250px;
+.container{
+    display: flex;
+    justify-content: space-between;
 }
-h2{
-    font-size: 300px;
+.first{
+    width: 325px;
+    height: 600px;
+    background-color: ghostwhite;
 }
-.form{
-    margin-left: 500px;
+img{
+    width: 100%;
 }
-.yut{
-    font-size: 50px;
-}
-.yat{
-    margin-left: 150px;
-}
-.ytt{
-    margin-left: 250px;
-}
-.yit{
-    margin-left: 250px;
-    font-size: 40px;
-}
-.contact{
+.titl{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 650;
+    color: blue;
+    font-size: 25px;
     text-align: center;
-    color: black;
+}
+.time{
+    font-size: 17px;
+    color: gray;
+    font-weight: 290;
+    margin-left: 15px;
+}
+.second{
+    display: flex;
+    color: gray;
+    font-size: large;
+
+}
+.third{
+    font-size: 20px;
+    font-weight: 400;
+}
+.fourth{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    color:black;
+    justify-content: left;
+}
+.fifth{
+    display:flex;
+    gap: 15px;
+    margin-left: 20px;
+}
+.fa-grip-lines{
+    font-size: 90px;
+    margin-left: 625px;
+    color: greenyellow;
+}
+.fa-calendar-day{
+    color: brown;
+}
+.last{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 200px;
 }
